@@ -62,7 +62,8 @@ nav ul li a {
   border-radius: 2.4rem;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+header button:hover {
   background: #213563;
   color: white;
 }
@@ -82,6 +83,19 @@ nav ul li a:hover {
   height: 42px;
 }
 
+header button {
+  color: #213563;
+  font-family: Arial;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding: 2rem;
+  border-radius: 2.4rem;
+  border: 2px solid #213563;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
 /*-------------Section 1-------------- */
 
 section#sec-1 {
